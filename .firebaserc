@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "university-system-f8daa": {
+      "hosting": {
+        "LMS": [
+          "university-system-f8daa"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "university-system-f8daa"
+  }
+}

@@ -1,0 +1,21 @@
+<app-navbar (showAdminComponent)="chooseComponent($event)"></app-navbar>
+
+<div *ngIf="show_comp == 'home'">
+  <app-home></app-home>
+</div>
+
+<div *ngIf="show_comp == 'course'">
+  <app-create-course></app-create-course>
+</div>
+
+<div *ngIf="show_comp == 'teacher'">
+  <app-register-teacher></app-register-teacher>
+</div>
+
+<div *ngIf="show_comp == 'student'">
+  <app-register-student></app-register-student>
+</div>
+
+<div *ngIf="show_comp == 'class'">
+  <app-class></app-class>
+</div>
